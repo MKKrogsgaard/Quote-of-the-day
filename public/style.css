@@ -1,0 +1,112 @@
+/* Global variables */
+:root {
+    /* Color palette */
+    --color-primary: #f1efe6;
+
+    --color-seconday: #eccf3a;
+    --color-seconday-brightened: #ff8902;
+    --color-seconday-darkened: #14213D;
+    --color-seconday-darkened-darkened: #14213D;
+
+    --color-accent: #14213D;
+    --color-accent-brightened: #14213D;
+    --color-accent-darkened: #14213D;
+
+    --color-ui: #f4d35e;
+
+    --color-light: #bfc0c0;
+
+    /* Border radius for ui elements */
+    --border-radius: 5px;
+}
+
+body{
+    font-family: "Roboto";
+    background: var(--c-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* remove default body margin that can create gaps */
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+    margin: 0;
+}
+h4 {
+    margin: 0;
+}
+
+
+/* Wrapper for file upload fields */
+blockquote {
+    font-weight: 100;
+	font-size: 2rem;
+	max-width: 1000px;
+	line-height: 1.1;
+	position: relative;
+	margin: 0;
+	padding: .5rem;
+}
+
+/* Quote mark effects */
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 8rem;
+	width: 8rem;
+	height: 4rem;
+}
+blockquote:before {
+	content: '“';
+	left: -5rem;
+	top: -2rem;
+}
+blockquote:after {
+	content: '”';
+	right: -9rem;
+	bottom: 1rem;
+}
+
+/* Author name */
+cite {
+	line-height: 3;
+	text-align: left;
+}
+
+
+/* Single-line footer */
+.footer-single-line {
+    background-color: var(--color-accent-darkened);
+    color: var(--color-primary);
+    border-top: 5px solid var(--color-seconday);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+.footer-single-line-link {
+  color: var(--color-seconday);
+  background-color: transparent;
+  text-decoration: none;
+}
+.footer-single-line-link:hover {
+  color: var(--color-seconday-brightened);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.footer-single-line-link:active {
+  color: var(--color-accent-brightened);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+

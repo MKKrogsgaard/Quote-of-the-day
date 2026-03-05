@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Heatmap generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Reference to css stylesheet-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--Get the "Playfair" font from Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content">
+            <h1 id="title-header">Quote of the Day</h1>
+            <h4 id="time-to-next-quote-header">Next quote at midnight (UTC+1)</h4>
+            <div class="quote-box">
+                <blockquote id="quote-text">This is a debug quote. It is really long, which helps me see if the formatting is working correctly. If you can see this, something has probably gone wrong ¯\_(ツ)_/ Here, have some lorem ipsum as a consolation prize: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</blockquote>
+                <cite id="'quote-author">- Author Name Here</cite>
+            </div>
+        </div>
+
+        <footer class="footer-single-line"><p>Made by <a class="footer-single-line-link" href="https://github.com/MKKrogsgaard">Marcus K. Krogsgaard</a></p></footer>
+
+        <!--Get jQuery from googles CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!--Reference to script defining jQuery functions-->
+        <script src="scripts/jquery_functions.js"></script>
+
+        <!--Reference to other JS code-->
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
