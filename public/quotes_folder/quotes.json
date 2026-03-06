@@ -1,0 +1,834 @@
+[
+  {
+    "quote": "Lad ikke sjælen give op før kroppen gør det.",
+    "author": ""
+  },
+  {
+    "quote": "People try to get away from it all — to the country, to the beach, to the mountains. You always wish that you could too. Which is idiotic: you can get away from it anytime you like. By going within.",
+    "author": "- Marcus Aurelius"
+  },
+  {
+    "quote": "Choose not to be harmed — and you won't feel harmed. Don't feel harmed — and you haven't been.",
+    "author": "- Marcus Aurelius"
+  },
+  {
+    "quote": "Praise is extraneous. The object of praise remains what it was — no better and no worse.",
+    "author": "- Marcus Aurelius"
+  },
+  {
+    "quote": "If you seek tranquility, do less.",
+    "author": "- Marcus Aurelius"
+  },
+  {
+    "quote": "Wenn wir eine Situation nicht mehr ändern können, sind wir aufgefordert, uns selbst zu ändern.",
+    "author": "- Viktor Frankl"
+  },
+  {
+    "quote": "To give anything less than your best is to sacrifice the gift.",
+    "author": "- Steve Prefontaine"
+  },
+  {
+    "quote": "Somebody may beat me, but they are going to have to bleed to do it.",
+    "author": "- Steve Prefontaine"
+  },
+  {
+    "quote": "If you fail to prepare, prepare to fail.",
+    "author": "- Steve Prefontaine"
+  },
+  {
+    "quote": "En ekspert er en person, der har lavet alle de fejl, der kan laves inden for et meget snævert område.",
+    "author": "- Niels Bohr"
+  },
+  {
+    "quote": "Gør dig umage, og spørg hvis der er noget du ikke har forstået.",
+    "author": "- Lars Bondo Krogsgaard"
+  },
+  {
+    "quote": "Hoy es siempre todavía, toda la vida es ahora.",
+    "author": "- Antonio Machado"
+  },
+  {
+    "quote": "El primer paso de la ignorancia es presumir de saber.",
+    "author": "- Baltasar Gracián"
+  },
+  {
+    "quote": "It is possible to commit no mistakes and still lose. That is not weakness, that is life.",
+    "author": "- Jean-Luc Picard"
+  },
+  {
+    "quote": "Hvis ikke du vælger en vej, vælger livet for dig. Og du vil nok ikke kunne lide hvor det bringer dig hen.",
+    "author": "- Ukendt"
+  },
+  {
+    "quote": "Wer von seinem Tag nicht zwei Drittel für sich hat, ist ein Sklave.",
+    "author": "- Friedrich Nietzsche"
+  },
+  {
+    "quote": "Was mich nicht umbringt macht mich stärker.",
+    "author": "- Friederich Nietzsche"
+  },
+  {
+    "quote": "Wenn Sie ein glückliches Leben führen möchten, binden Sie es an ein Ziel, nicht an Menschen oder Gegenstände.",
+    "author": "- Albert Einstein"
+  },
+  {
+    "quote": "Tænk over hvad du laver. Og hvem du laver det med.",
+    "author": ""
+  },
+  {
+    "quote": "Es ist nicht so, dass ich so schlau bin. Aber ich bleibe viel länger bei den Fragen.",
+    "author": "- Albert Einstein"
+  },
+  {
+    "quote": "Die Realität ist nur eine Illusion, wenn auch eine sehr hartnäckige.",
+    "author": "- Albert Einstein"
+  },
+  {
+    "quote": "Jeg holder af hverdagen. Mest af alt holder jeg af hverdagen.",
+    "author": "- Dan Turell"
+  },
+  {
+    "quote": "Nogle gange må man gøre ting, også selv om det er farligt. Ellers er man ikke et menneske, men bare en lille lort!",
+    "author": "- Astrid Lindgren (Brødrene Løvehjerte)"
+  },
+  {
+    "quote": "The most important conversations you’ll ever have are the ones you’ll have with yourself.",
+    "author": "- David Goggins"
+  },
+  {
+    "quote": "Greatness is not something that if you meet it once it stays with you forever. That shit evaporates like a flash of oil in a hot pan.",
+    "author": "- David Goggins"
+  },
+  {
+    "quote": "To stop talking about what the good man is like, and just be one.",
+    "author": "- Marcus Aurelius"
+  },
+  {
+    "quote": "Don't cling to a mistake just because you spent a long time making it.",
+    "author": "- Unknown"
+  },
+  {
+    "quote": "It's so easy to be great nowadays because most people are weak.",
+    "author": "- David Goggins"
+  },
+  {
+    "quote": "Glem ikke hvem du ville være, hvis ikke du var den du er.",
+    "author": ""
+  },
+  {
+    "quote": "Discipline is doing what you hate to do, but nonetheless doing it like you love it.",
+    "author": "- Mike Tyson"
+  },
+  {
+    "quote": "Den som tvivler på sin sag, han er slagen før sit slag.",
+    "author": "- Piet Hein"
+  },
+  {
+    "quote": "Love the life you live. Live the life you love.",
+    "author": "- Bob Marley"
+  },
+  {
+    "quote": "Du kannst den Wind nicht ändern, aber die Segel anders setzen.",
+    "author": "- Aristoteles"
+  },
+  {
+    "quote": "It's all bullshit. Just do.",
+    "author": "- David Goggins"
+  },
+  {
+    "quote": "I realized the reason I became 297 pounds is because that was comfortable. What was very uncomfortable was running.",
+    "author": "- David Goggins"
+  },
+  {
+    "quote": "I can't relate to lazy people. We don't speak the same language. I don't\nunderstand you. I don't want to understand you.",
+    "author": "- Kobe Bryant"
+  },
+  {
+    "quote": "Confidence comes from the things that you built. You must build belief.",
+    "author": "- David Goggins"
+  },
+  {
+    "quote": "Fist your way to success!",
+    "author": "- Dr. Mike Israetel"
+  },
+  {
+    "quote": "Congratulations! You've achieved failure.",
+    "author": "- Tom Platz"
+  },
+  {
+    "quote": "At vove er at tabe fodfæste en kort stund. Ikke at vove er at tabe sig selv.",
+    "author": "- Søren Kierkegaard"
+  },
+  {
+    "quote": "Livet forstås baglæns, men må leves forlæns.",
+    "author": "- Søren Kierkegaard"
+  },
+  {
+    "quote": "Naar man bliver ved at gaae, saa gaaer det nok.",
+    "author": "- Søren Kierkegaard"
+  },
+  {
+    "quote": "You have to be a bit too optimistic at times, to make a difference.",
+    "author": ""
+  },
+  {
+    "quote": "Speak softly and carry a big stick; you will go far.",
+    "author": "- Theodore Roosevelt\n- Linus Torvalds"
+  },
+  {
+    "quote": "I never try to make any far-reaching predictions, so much can happen that it simply only makes you look stupid a few years later.",
+    "author": "- Linus Torvalds"
+  },
+  {
+    "quote": "Du er den du er, når ingen kigger.",
+    "author": ""
+  },
+  {
+    "quote": "In the first place, the rightness of one's assertions has nothing to do with winning or losing. If you think you are right, regardless of what other people's opinions might be, the matter should be closed then and there.",
+    "author": "- Ichiro Kishimi & Fumitake Koga"
+  },
+  {
+    "quote": "Take care of your body. It's the one place you have to live.",
+    "author": "- Jim Rohn"
+  },
+  {
+    "quote": "If you don’t find the time, if you don’t do the work, you don’t get the results.",
+    "author": "- Arnold Schwarzenegger"
+  },
+  {
+    "quote": "You have to remember something: Everybody pities the weak; jealousy you have to earn.",
+    "author": "- Arnold Schwarzenegger"
+  },
+  {
+    "quote": "You can't just API your way out of everything! How about you solve some problems for yourself?",
+    "author": "- PewDiePie"
+  },
+  {
+    "quote": "The Ph.D. student is someone who forgoes current income in order to forgo future income.",
+    "author": "- Peter Greenberg"
+  },
+  {
+    "quote": "All of science is nothing more than the refinement of everyday thinking.",
+    "author": "- Albert Einstein"
+  },
+  {
+    "quote": "Insofern sich die Sätze der Mathematik auf die Wirklichkeit beziehen, sind sie nicht sicher, und insofern sie sicher sind, beziehen sie sich nicht auf die Wirklichkeit.",
+    "author": "- Albert Einstein"
+  },
+  {
+    "quote": "Die Majorität der Dummen ist unüberwindbar und für alle Zeiten gesichert. Der Schrecken ihrer Tyrannei ist indessen gemildert durch Mangel an Konsequenz.",
+    "author": "- Albert Einstein"
+  },
+  {
+    "quote": "Øvelse gør mester.",
+    "author": "- Dansk ordsprog"
+  },
+  {
+    "quote": "De er sure, sagde ræven om rønnebærene, for den kunne ikke nå dem.",
+    "author": "- Dansk ordsprog"
+  },
+  {
+    "quote": "Der er ikke rust på et nyttigt redskab.",
+    "author": "- Dansk ordsprog"
+  },
+  {
+    "quote": "Hvo skammer sig ved at spørge, skammer sig ved at lære.",
+    "author": "- Dansk ordsprog"
+  },
+  {
+    "quote": "I mørket er alle katte grå.",
+    "author": "- Dansk ordsprog"
+  },
+  {
+    "quote": "There are only two kinds of languages: the ones people complain about and the ones nobody uses.",
+    "author": "- Bjarne Stroustrup"
+  },
+  {
+    "quote": "Life offers you opportunities. Squatting is one opportunity.",
+    "author": "- Tom Platz"
+  },
+  {
+    "quote": "Sig mig hvad du ønsker, og jeg skal sige dig hvem du er.",
+    "author": "- Anton Chekhov"
+  },
+  {
+    "quote": "If my mind can conceive it, and my heart can believe it, then I can achieve it.",
+    "author": "- Muhammad Ali"
+  },
+  {
+    "quote": "I don't know anything about luck. Only that the more I practice, the luckier I get.",
+    "author": "- Ingemar Stenmark"
+  },
+  {
+    "quote": "The world that we have made as a result of the level of thinking we have done thus far creates problems that we cannot solve at the same level as the level we created them at.",
+    "author": "- Albert Einstein"
+  },
+  {
+    "quote": "Dreams make good stories, but everything important happens when we're awake.",
+    "author": "- Dune"
+  },
+  {
+    "quote": "I have survived so far, miraculously. Now I will turn miracle into routine. The amazing will be seen every day. I will put in all the hard work necessary.",
+    "author": "- Life of Pi"
+  },
+  {
+    "quote": "You can't cross the sea merely by standing and staring at the water.",
+    "author": "- Rabindranath Tagore"
+  },
+  {
+    "quote": "Making mistakes is just an important component of the creative process.",
+    "author": "- Hugo Duminil-Copin"
+  },
+  {
+    "quote": "Gentlemen: You have undertaken to cheat me. I won't sue you, for the law is too slow. I'll ruin you.",
+    "author": "- Cornelius Vanderbilt"
+  },
+  {
+    "quote": "Jeder steckt in seinem Bewußtsein wie in seiner Haut, und lebt unmittelbar nur in demselben: daher ist ihm von außen nicht sehr zu helfen.",
+    "author": "- Arthur Schopenhauer"
+  },
+  {
+    "quote": "At man, når det i Sandhed skal lykkes En at føre et Menneske hen til et bestemt Sted, først og fremmest må passe på at finde ham der, hvor han er, og begynde der. Dette er Hemmeligheden i al Hjælpekunst.",
+    "author": "- Søren Kirkegaard"
+  },
+  {
+    "quote": "Denn was einer für sich selbst ist, was ihn in die Einsamkeit begleitet und was keiner ihm geben oder nehmen kann, ist offenbar für ihn wesentlicher als alles, was er besitzen, oder auch, was er in den Augen anderer sein mag.",
+    "author": "- Arthur Schopenhauer"
+  },
+  {
+    "quote": "Si vis pacem, para bellum.",
+    "author": "- Romersk ordsprog"
+  },
+  {
+    "quote": "Memento mori.",
+    "author": "- Romersk ordsprog"
+  },
+  {
+    "quote": "Ipsa scientia potestas est.",
+    "author": "- Sir Francis Bacon"
+  },
+  {
+    "quote": "Greatness is a lot of small things done well.",
+    "author": "- Ray Lewis"
+  },
+  {
+    "quote": "Do not let what you can not do interfere with what you can do.",
+    "author": "- John Wooden"
+  },
+  {
+    "quote": "Du darfst niemals am Boden bleiben. Steh auf und mach weiter!",
+    "author": "- Max Schmeling"
+  },
+  {
+    "quote": "Ni el corbarde hallará puerta segura para escaparse.",
+    "author": "- Alonso de Barros"
+  },
+  {
+    "quote": "El que quiera ser águila que vuele, el que quiera ser gusano que se arrastre pero que no grite cuando lo pisen.",
+    "author": "- Emiliano Zapata"
+  },
+  {
+    "quote": "Du er ikke storartet nok til at være så beskeden.",
+    "author": ""
+  },
+  {
+    "quote": "If I have seen further than others, it is by standing on the shoulders of giants.",
+    "author": "- Sir Isaac Newton"
+  },
+  {
+    "quote": "La penicilina se descubrió por casualidad, el napalm no.",
+    "author": "- Jaume Perich"
+  },
+  {
+    "quote": "Adivinar el futuro es el segundo oficio más antiguo de la historia.",
+    "author": "- Jorge Wagensberg"
+  },
+  {
+    "quote": "Lad ikke fremtiden genere dig. Du vil om nødvendigt møde den med de samme rationelle våben, som du bruger til at bekæmpe nutiden.",
+    "author": "- Marcus Aurelius"
+  },
+  {
+    "quote": "Hvis det ikke er rigtigt, så gør det ikke. Hvis det ikke er sandt, så sig det ikke.",
+    "author": "- Marcus Aurelius"
+  },
+  {
+    "quote": "Det, der er virkelig smukt, behøver ikke mere.",
+    "author": "- Marcus Aurelius"
+  },
+  {
+    "quote": "Gør det rigtige. Resten betyder ikke noget. Varm eller kold. Træt eller udhvilet. Foraget eller æret. Død eller travlt optaget af andre opgaver.",
+    "author": "- Marcus Aurelius"
+  },
+  {
+    "quote": "The lawyers clean up all details since daddy had to lie.",
+    "author": "- The End of Innocence"
+  },
+  {
+    "quote": "The market can stay irrational longer than you can stay solvent.",
+    "author": "- A. Gary Shilling"
+  },
+  {
+    "quote": "Someday? Someday my dream will come? One night you'll wake up, and you'll discover it never happened.",
+    "author": "- Vincent"
+  },
+  {
+    "quote": "My experience is what I agree to attend to. Only those items which I notice shape my mind -- without selective interest, the consciousness of every creature would be a gray chaotic indiscriminateness, impossible for us to even conceive.",
+    "author": "- William James"
+  },
+  {
+    "quote": "You're under no obligation to be the same person you were 5 minutes ago.",
+    "author": "- Alan Watts"
+  },
+  {
+    "quote": "Es gibt zwei Wege, das Leben zu leben: alles selbsterverständlich zu nehmen, oder die ganze Welt als Wunder zu betrachten. Ich glaube an Letzteres.",
+    "author": "- Albert Einstein"
+  },
+  {
+    "quote": "Hvis nogens karakter ikke er tydelig for dig, så se på vedkommendes venner.",
+    "author": "- Japansk ordsprog"
+  },
+  {
+    "quote": "The art of competing, I'd learned from track, was the art of forgetting, and I now reminded myself of that fact. You must forget your limits. You must forget your doubts, your pain, your past.",
+    "author": "- Phil Knight"
+  },
+  {
+    "quote": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "author": "- Maya Angelou"
+  },
+  {
+    "quote": "It is not easy to find happiness in ourselves, and it is not possible to find it elsewhere.",
+    "author": "- Agnes Repplier"
+  },
+  {
+    "quote": "You may be sure that the Americans will commit all the stupidities they can think of, plus some that are beyond imagination.",
+    "author": "- Charles de Gaulle"
+  },
+  {
+    "quote": "Don't think of yourself as indispensible or infallibe. The cemeteries of the world are full of indispensable men.",
+    "author": "- Charles de Gaulle"
+  },
+  {
+    "quote": "Always choose the hardest way, on it you will not find opponents.",
+    "author": "- Charles de Gaulle"
+  },
+  {
+    "quote": "When I am right, I get angry. Churchill gets angry when he is wrong. We are angry at each other much of the time.",
+    "author": "- Charles de Gaulle"
+  },
+  {
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "- Will Durant"
+  },
+  {
+    "quote": "Tired mothers find that spanking takes less time than reasoning and penetrates sooner to the seat of the memory.",
+    "author": "- Will Durant"
+  },
+  {
+    "quote": "Quality means doing it right when no one is looking.",
+    "author": "- Henry Ford"
+  },
+  {
+    "quote": "The object of education is not to fill a man's mind with facts; it is to teach him how to use his mind in thinking.",
+    "author": "- Henry Ford"
+  },
+  {
+    "quote": "If I'd listened to customers, I'd have given them a faster horse.",
+    "author": "- Henry Ford"
+  },
+  {
+    "quote": "If you need a machine and don't buy it, then you will ultimately find that you have paid for it and don't have it.",
+    "author": "- Henry Ford"
+  },
+  {
+    "quote": "Thinking is hard work, which is why so few people do it.",
+    "author": "- Henry Ford"
+  },
+  {
+    "quote": "If you're going through hell, keep going.",
+    "author": "- Winston Churchill"
+  },
+  {
+    "quote": "Physical concepts are free creations of the human mind, and are not, however it may seem, uniquely determined by the external world.",
+    "author": "- Albert Einstein"
+  },
+  {
+    "quote": "Physics is like sex: sure, it may give some practical results, but that's not why we do it.",
+    "author": "- Richard P. Feynman"
+  },
+  {
+    "quote": "You do not know anything until you have practiced.",
+    "author": "- Richard P. Feynman"
+  },
+  {
+    "quote": "The electron is a theory we use; it is so useful in understanding the way nature works that we can almost call it real.",
+    "author": "- Richard P. Feynman"
+  },
+  {
+    "quote": "Words can be meaningless if they are used in such a way that no sharp conclusions can be drawn.",
+    "author": "- Richard P. Feynman"
+  },
+  {
+    "quote": "Physics is to mathematics what sex is to masturbation.",
+    "author": "- Richard P. Feynman"
+  },
+  {
+    "quote": "Scientific knowledge is a body of statements of varying degrees of certainty -- some most unsure, some nearly sure, none absolutely certain.",
+    "author": "- Richard P. Feynman"
+  },
+  {
+    "quote": "Don't wrestle with pigs. You both get dirty and the pig likes it.",
+    "author": "- Mark Twain"
+  },
+  {
+    "quote": "Consider the average intelligence of the common man, then realize 50",
+    "author": ""
+  },
+  {
+    "quote": "are even stupider.",
+    "author": "- Mark Twain"
+  },
+  {
+    "quote": "'Tis better to sit there and look the fool, than to open your mouth and prove it.",
+    "author": "- Mark Twain"
+  },
+  {
+    "quote": "Writing is the best way to talk without being interrupted.",
+    "author": "- Jules Renard"
+  },
+  {
+    "quote": "Laziness is nothing more than the habit of resting before you get tired.",
+    "author": "- Jules Renard"
+  },
+  {
+    "quote": "\"Glaube\" heißt Nich-wissen-wollen, was wahr ist.",
+    "author": "- Friedrich Nietzsche"
+  },
+  {
+    "quote": "Ein Spaziergang durch die Irrenanstalt zeigt, dass der Glaube nichts beweist.",
+    "author": "- Friedrich Nietzsche"
+  },
+  {
+    "quote": "The secret of success is to do the common things uncommonly well.",
+    "author": "- John D. Rockerfeller"
+  },
+  {
+    "quote": "Save when you can and not when you have to.",
+    "author": "- John D. Rockerfeller"
+  },
+  {
+    "quote": "If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.",
+    "author": "- John von Neumann"
+  },
+  {
+    "quote": "Anyone who considers arithmetical methods of producing random digits is, of course, living in a state of sin.",
+    "author": "- John von Neumann"
+  },
+  {
+    "quote": "Truth is much too complicated to allow anything but approximations.",
+    "author": "- John von Neumann"
+  },
+  {
+    "quote": "Fortæl aldrig din modstander at han begår en fejl.",
+    "author": "- Napoleon Bonaparte"
+  },
+  {
+    "quote": "In a time of universal deceit - telling the truth is a revolutionary act.",
+    "author": "- George Orwell"
+  },
+  {
+    "quote": "Political language is designed to make lies sound truthful and murder respectable, and to give an appearance of solidity to pure wind.",
+    "author": "- George Orwell"
+  },
+  {
+    "quote": "The party told you to reject the evidence of your eyes and ears. It was their final, most essential command.",
+    "author": "- 1984"
+  },
+  {
+    "quote": "Totalitarianism, if not fought against, could triumph anywhere.",
+    "author": "- George Orwell"
+  },
+  {
+    "quote": "To see what is in front of one's nose needs a constant struggle.",
+    "author": "- George Orwell"
+  },
+  {
+    "quote": "Orthodoxy is the ability to say two and two make five when faith requires it.",
+    "author": "- George Orwell"
+  },
+  {
+    "quote": "History has stopped. Nothing exists except an endless present in which the Party is always right.",
+    "author": "- 1984"
+  },
+  {
+    "quote": "I do not wish to comment on the work; if it does not speak for itself, it is a failure.",
+    "author": ""
+  },
+  {
+    "quote": "Forbered ikke stien til barnet, forbered barnet på stien.",
+    "author": "- Ukendt"
+  },
+  {
+    "quote": "I need ammunition, not a ride.",
+    "author": "- Volodymyr Zelenskyj"
+  },
+  {
+    "quote": "Livet er ganske enkelt, men vi insisterer på at gøre det kompliceret.",
+    "author": "- Konfucius"
+  },
+  {
+    "quote": "It is better to be hated for what you are than to be loved for what you are not.",
+    "author": "- Andrè Gide"
+  },
+  {
+    "quote": "Krisen består netop i det faktum at den gamle verden dør og den nye ikke kan fødes; i dette interregnum optræder en mangfoldighed af sygelige fænomener.",
+    "author": "- Antonio Gramsci"
+  },
+  {
+    "quote": "To achieve great things, two things are needed: a plan and not quite enough time.",
+    "author": "- Leonard Bernstein"
+  },
+  {
+    "quote": "Sometimes it is the people no one can imagine anything of who do the things no one can imagine.",
+    "author": "- Alan Turing"
+  },
+  {
+    "quote": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+    "author": "- Alan Turing"
+  },
+  {
+    "quote": "I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.",
+    "author": "- Alan Turing"
+  },
+  {
+    "quote": "I am not very impressed with theological arguments whatever they may be used to support. Such arguments have often been found unsatisfactory in the past.",
+    "author": "- Alan Turing"
+  },
+  {
+    "quote": "The purpose of a system is what is does. There is after all, no poiint in claiming that the purpose of a system is to do what it constantly fails to do.",
+    "author": "- Stafford Beer"
+  },
+  {
+    "quote": "Forvent aldrig at andre gør som du vil.",
+    "author": ""
+  },
+  {
+    "quote": "Der Glaube mehrt die Tatkraft.",
+    "author": "- Franz Liszt"
+  },
+  {
+    "quote": "Glücklich, wer mit den Verhältnissen zu brechen versteht, ehe sie ihn gebrochen haben!",
+    "author": "- Franz Liszt"
+  },
+  {
+    "quote": "Wenn auch anzunehmen ist, alles sei bereits gesagt, so darf man doch keinesfalls folgern, daß auch alles gehört und verstanden ist.",
+    "author": "- Franz Liszt"
+  },
+  {
+    "quote": "I am by far your superior, but my notorious modesty prevents me from saying so.",
+    "author": "- Erik Satie"
+  },
+  {
+    "quote": "When I was young, people used to say to me: Wait until you're fifty, you'll see. I am fifty. I haven't seen anything.",
+    "author": "- Erik Satie"
+  },
+  {
+    "quote": "Last year I gave several lectures on \"Intelligence and Musicality among Animals\"... Today I am going to speak to you about \"Intelligence and Musicality among Critics\"... The subject is much the same, with some modifications, of course.",
+    "author": "- Erik Satie"
+  },
+  {
+    "quote": "You practice and you get better. It's very simple.",
+    "author": "- Philip Glass"
+  },
+  {
+    "quote": "My biggest problem about writing is whenever I write piano pieces, because then I have to learn to play them, which is sometimes not so easy.",
+    "author": "- Philip Glass"
+  },
+  {
+    "quote": "Man behøver ikke at være et røvhul hvis man er god nok.",
+    "author": "- Lars"
+  },
+  {
+    "quote": "A full stomach likes to preach about fasting.",
+    "author": "- Ukendt"
+  },
+  {
+    "quote": "Hvorfor give op lige nu? Du kan stadig nå det i morgen.",
+    "author": ""
+  },
+  {
+    "quote": "It is dangerous to be right in matters on which the established authorities are wrong.",
+    "author": "- Voltaire"
+  },
+  {
+    "quote": "Too often we enjoy the comfort of opinion without the discomfort of thought.",
+    "author": "- John F. Kennedy"
+  },
+  {
+    "quote": "Wer Ablenkungen zulässt, hat bereits verloren.",
+    "author": "- Deutsches Sprichwort"
+  },
+  {
+    "quote": "Guests, like fish, begin to smell after three days.",
+    "author": "- Benjamin Franklin"
+  },
+  {
+    "quote": "No amount of tape will do your pulley's job.",
+    "author": "- En fyr på reddit"
+  },
+  {
+    "quote": "Run when you can, walk if you have to, crawl if you must; just never give up.",
+    "author": "- Dean Karnazes"
+  },
+  {
+    "quote": "Winning is not everything, but wanting to win is.",
+    "author": "- Vince Lombardi"
+  },
+  {
+    "quote": "Even if you're inches away from the finish, never take success for granted.",
+    "author": "- Dean Karnazes"
+  },
+  {
+    "quote": "Pain and suffering are always invetable for a large intelligence and a deep heart. The really great men must, I think, have great sadness on earth.",
+    "author": "- Fyodor Dostoevsky"
+  },
+  {
+    "quote": "Each day you must choose, the pain of discipline or the pain of reget.",
+    "author": "- Eric Mangini"
+  },
+  {
+    "quote": "I think goals should never be easy, they should force you to work, even if they are uncomfortable at the time.",
+    "author": "- Micheal Phelps"
+  },
+  {
+    "quote": "Don't be afraid to give up the good to go for the great.",
+    "author": "- John. D. Rockerfeller"
+  },
+  {
+    "quote": "Vi kan ikke vælge vores ydre omstændigheder, men vi kan altid vælge, hvordan vi reagerer på dem.",
+    "author": "- Epiktet"
+  },
+  {
+    "quote": "Intet menneske er frit, som ikke er herre over sig selv.",
+    "author": "- Epiktet"
+  },
+  {
+    "quote": "It's not only about winning; it's about making sure your opponent understands.",
+    "author": "- Khabib Nurmagomedov"
+  },
+  {
+    "quote": "You can't build a reputation on what you're going to do.",
+    "author": "- Khabib Nurmagomedov"
+  },
+  {
+    "quote": "If you want to become the best in this business, you have to sacrifice. Sacrifice your time, sacrifice your health and sacrifice everything that you have. I don't know any other way.",
+    "author": "- Khabib Nurmagomedov"
+  },
+  {
+    "quote": "Revenge is a kind of wild justice, which the more man's nature runs to, the more ought law to weed it out; for as for the first wrong, it doth but offend the law, but the revenge of that wrong putteth the law out of office.",
+    "author": "- Sir Francis Bacon"
+  },
+  {
+    "quote": "It is not the lie that passeth through the mind, but the lie that sinketh in, and settleth in it, that doth the hurt.",
+    "author": "- Sir Francis Bacon"
+  },
+  {
+    "quote": "Again, envy is ever joined with the comparing of a man's self; and where there is no comparison, no envy; and therefore kings are not envied but by kings.",
+    "author": "- Sir Francis Bacon"
+  },
+  {
+    "quote": "A man that hath no virtue in himself, ever envieth virtue in others.",
+    "author": "- Sir Francis Bacon"
+  },
+  {
+    "quote": "Certainly, virtue is like precious odors, most fragrant when they are incensed, or crushed; for prosperity doth best discover vice, but adversity doth best discover virtue.",
+    "author": "- Sir Francis Bacon"
+  },
+  {
+    "quote": "That which is past is gone and irrevocable, and wise men have enough to do with things present and to come; therefore they do but trifle with themselves that labor in past matters.",
+    "author": "- Sir Francis Bacon"
+  },
+  {
+    "quote": "Men in great fortunes are strangers to themselves.",
+    "author": "- Sir Francis Bacon"
+  },
+  {
+    "quote": "Nay, it were better to meet some dangers half-way, though they come nothing near, than to keep too long a watch upon their approaches; for if a man watch too long, it is odds he will fall asleep.",
+    "author": "- Sir Francis Bacon"
+  },
+  {
+    "quote": "If one is on the spot, disorders are seen as they spring up, and one can quickly remedy them; but if one is not at hand, they are heard of only when they are great, and then one can no longer remedy them.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "Men ought either to be well treated or crushed, because they can avenge themselves of lighter injuries, of more serious ones, they cannot; therefore the injury that is to be done to a man ought to be of such a kind that one does not stand in fear of revenge.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "He who is the cause of another becoming powerful is ruined.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "It ought to be remembered that there is nothing more difficult to take in hand, more periolous to conduct or more uncertain its success, than to take the lead in the indtroduction of a new order of things, because the innovator has for enemies all those who have done well under the old conditions, and lukewarm defenders in those who may do well under the new.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "The nature of the people is variable, and whilst it is easy to persuade them, it is difficult to fix them in that persuasion. And thus it is necessary to take such measures that, when they believe no longer, it may be possible to make them believe by force.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "When they recieve good from whom they were expecting evil, they are bound more closely to their benefactor.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "Generosity exercised in a way that does not bring you the reputation for it, injures you; for if one exercises it honestly and as it should be exercised, it may not become known, and you will not avoid the reproach of its opposite.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "There is nothing wastes so rapidly as generosity, for even whilst you exercise it you lose the power to do so, and so become either poor or despised, or else, in aboiding poverty, rapacious and hated.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "Upon this a question arises: whether it be better to be loved than feared or feared than loved? It may be answered that one should wish to be both, but, because it is difficult to unite them in one person, it is much safer to be feared.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "Men have less scruple in offending one who is beloved than one who is feared, for love is preserved by the link of obligation, which, owing to the baseness of men, is broken at every opportunity for their advantadge.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "Men more quickly forget the death of their father than the loss of their patrimony.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "It is unnecessary for a prince to have all the good qualities I have enumerated, but very necessary to appear to have them.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "Everyone sees what you appear to be, few really know what you are, and those few dare not oppose themselves to the opinion of the many, who have the majesty of the state to defend them.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "Princes ought to leave affairs of reproach to the management of others, and keep those of grace in their own hands.",
+    "author": "- Niccolò Machiavelli"
+  },
+  {
+    "quote": "Das ist nicht nur nicht richtig; es ist nicht einmal falsch!",
+    "author": "- Wolfgang Pauli"
+  },
+  {
+    "quote": "The mathematician plays a game in which he himself invents the rules, while the physicist plays a game in which the rules are provided by nature, but as time goes on it becomes increasingly evident that the rules which the mathematician finds interesting are the same as those which nature has chosen.",
+    "author": "- Paul Dirac"
+  },
+  {
+    "quote": "What we observe is not nature itself, but nature exposed to our method of questioning.",
+    "author": "- Werner Heisenberg"
+  },
+  {
+    "quote": "What can be asserted without evidence can also be dismissed without evidence.",
+    "author": "- Hitchen's razor"
+  },
+  {
+    "quote": "The opposite of discipline isn't freedom, it's dependence.",
+    "author": "- Seth Capehart"
+  }
+]
