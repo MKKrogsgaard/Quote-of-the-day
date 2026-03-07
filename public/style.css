@@ -110,4 +110,13 @@ cite {
   text-decoration: underline;
 }
 
+/* Hide debug buttons on lead */
+#random-quote-button {
+    display: none;
+}
+#current-quote-button {
+    display: none;
+}
+
+
 

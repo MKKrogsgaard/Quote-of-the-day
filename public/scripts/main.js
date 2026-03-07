@@ -1,6 +1,22 @@
 
 QUOTES_JSON_PATH = 'public/quotes_folder/quotes.json'
 
+function toggleDebugButtonsVisibility() {
+  var random_quote_button = document.getElementById("random-quote-button");
+  if (random_quote_button.style.display === "none") {
+    random_quote_button.style.display = "block";
+  } else {
+    random_quote_button.style.display = "none";
+  }
+
+  var current_quote_button = document.getElementById("current-quote-button");
+  if (current_quote_button.style.display === "none") {
+    current_quote_button.style.display = "block";
+  } else {
+    current_quote_button.style.display = "none";
+  }
+} 
+
 function formatTime(number) {
     /* Adds a leading zero to a number if the number is less than 10 */
     return number < 10 ? '0' + number : number;
@@ -12,8 +28,6 @@ async function displayCurrentQuote() {
     let minutes = formatTime(now.getMinutes());
     let seconds = formatTime(now.getSeconds());
 
-    console.log(`[DEBUG]: Getting the current quote from the server. Current time: ${hours}:${minutes}:${seconds}`);
-
     // Fetch current quote from the server
     const response = await fetch('/public/quotes_folder/current_quote');
     if(!response.ok) {
@@ -22,9 +36,6 @@ async function displayCurrentQuote() {
     }
     try {
         const current_quote = await response.json();
-        console.log('Recieved current quote:');
-        console.log(current_quote);
-
         // Display the quote
         document.getElementById('quote-text').innerHTML = current_quote.quote;
         document.getElementById('quote-author').innerHTML = current_quote.author;   
