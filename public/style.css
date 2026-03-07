@@ -41,7 +41,7 @@ h1 {
     margin: 0;
 }
 h4 {
-    margin: 0;
+    margin: 1;
 }
 
 
@@ -80,6 +80,7 @@ blockquote:after {
 cite {
 	line-height: 3;
 	text-align: left;
+    margin: 1;
 }
 
 
