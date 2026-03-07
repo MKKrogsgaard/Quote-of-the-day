@@ -6,13 +6,40 @@ function formatTime(number) {
     return number < 10 ? '0' + number : number;
 }
 
-async function refreshQuote() {
+async function displayCurrentQuote() {
     let now = new Date();
     let hours = formatTime(now.getHours());
     let minutes = formatTime(now.getMinutes());
     let seconds = formatTime(now.getSeconds());
 
-    console.log(`Refreshing quote. Current time: ${hours}:${minutes}:${seconds}`);
+    console.log(`[DEBUG]: Getting the current quote from the server. Current time: ${hours}:${minutes}:${seconds}`);
+
+    // Fetch current quote from the server
+    const response = await fetch('/public/quotes_folder/current_quote');
+    if(!response.ok) {
+        console.error('Quote fetch error: Failed to fetch quote from server');
+        return;
+    }
+    try {
+        const current_quote = await response.json();
+        console.log('Recieved current quote:');
+        console.log(current_quote);
+
+        // Display the quote
+        document.getElementById('quote-text').innerHTML = current_quote.quote;
+        document.getElementById('quote-author').innerHTML = current_quote.author;   
+    } catch (err) {
+        console.error(err);
+    }
+}
+
+async function debugRefreshQuote() {
+    let now = new Date();
+    let hours = formatTime(now.getHours());
+    let minutes = formatTime(now.getMinutes());
+    let seconds = formatTime(now.getSeconds());
+
+    console.log(`[DEBUG]: Manually refreshing quote. Current time: ${hours}:${minutes}:${seconds}`);
 
     // Fetch parsed quotes from the server
     const response = await fetch('/public/quotes_folder/quote');
@@ -35,3 +62,37 @@ async function refreshQuote() {
         console.error(err);
     }
 }
+
+function showTimeUntillMidnight() {
+    /* Displays the time until the next quote on the webpage */
+    let now = new Date();
+    let midnight = new Date(
+        now.getFullYear(),
+        now.getMonth(),
+        now.getDate() + 1, // the next day, ...
+        0, 0, 0 // ...at 00:00:00 hours
+        );
+
+    let time_diff_miliseconds = midnight.getTime() - now.getTime();
+    
+    let time_diff_hours = Math.floor(time_diff_miliseconds / (1000 * 60 * 60));
+    time_diff_miliseconds -= time_diff_hours * (1000 * 60 * 60)
+
+    let time_diff_mins = Math.floor(time_diff_miliseconds / (1000 * 60));
+    time_diff_miliseconds -= time_diff_mins * (1000 * 60);
+
+    let time_diff_seconds = Math.floor(time_diff_miliseconds / 1000);
+        
+    hours = formatTime(time_diff_hours);
+    minutes = formatTime(time_diff_mins);
+    seconds = formatTime(time_diff_seconds);
+
+    document.getElementById('time-to-next-quote-header').innerHTML = `Next quote in: ${hours}:${minutes}:${seconds}`;
+}
+
+function intervalLoop() {
+    showTimeUntillMidnight();
+    displayCurrentQuote();
+}
+
+let time_till_midnight_interval = window.setInterval(intervalLoop, 500);
