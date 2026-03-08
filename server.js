@@ -27,7 +27,7 @@ async function refreshQuote() {
     let minutes = formatTime(now.getMinutes());
     let seconds = formatTime(now.getSeconds());
 
-    console.log(`[DEBUG]: Automatically refreshing quote. Current time: ${hours}:${minutes}:${seconds}`);
+    console.log(`[DEBUG]: Refreshing quote. Current time: ${hours}:${minutes}:${seconds}`);
     console.log(current_quote);
 
     // Fetch parsed quotes from the server
