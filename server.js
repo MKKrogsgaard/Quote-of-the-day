@@ -78,8 +78,9 @@ app.get('/public/quotes_folder/quote', async (request, response) => {
 GET Requests stop
 */
 
-
-port = 5000
+// Bind to environment port for web hosting
+const PORT = process.env.PORT || 5000;
+app.listen(PORT);
 const server = app.listen(port, () => {
     console.log(`The server is running on port ${port}`);
 });
