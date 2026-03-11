@@ -123,8 +123,9 @@ cite {
     }
 
     .footer-single-line {
-        padding-bottom: env(safe-area-inset-bottom);
-        position: sticky;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
     }
 
     .content {
@@ -132,7 +133,7 @@ cite {
     }
 
     blockquote {
-        padding: 0.9rem 1rem;
+        padding: 1rem 1rem;
         font-size: 1rem;
     }
 
