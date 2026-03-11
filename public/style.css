@@ -52,7 +52,7 @@ blockquote {
 	line-height: 1.25;
 	position: relative;
 	margin: 0;
-	padding: 1rem 1.25rem;
+	padding: 1rem 1rem;
 }
 
 /* Quote mark effects */
@@ -118,7 +118,7 @@ cite {
 }
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     .content {
         padding: 1rem 0.75rem;
     }
