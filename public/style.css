@@ -22,7 +22,7 @@
 
 body{
     font-family: "Roboto";
-    background: var(--c-primary);
+    background: var(--color-primary);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,6 @@ cite {
     margin: 1;
 }
 
-
 /* Single-line footer */
 .footer-single-line {
     background-color: var(--color-accent-darkened);
@@ -119,6 +118,10 @@ cite {
 
 /* Mobile */
 @media (max-width: 1200px) {
+    body {
+        min-height: 100dvh; /* Use dynamic viewport height (hopefully fixes safari issues with footer) */
+    }
+
     .content {
         padding: 1rem 0.75rem;
     }
