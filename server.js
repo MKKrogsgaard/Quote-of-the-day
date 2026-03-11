@@ -79,10 +79,15 @@ GET Requests stop
 */
 
 // Bind to environment port for web hosting
-const PORT = process.env.PORT || 5000;
-const server = app.listen(PORT, '0.0.0.0', () => {
+// const PORT = process.env.PORT || 5000;
+// const server = app.listen(PORT, '0.0.0.0', () => {
+//     console.log(`The server is running on port ${PORT}`);
+// });
+const PORT = 5000;
+const server = app.listen(PORT, () => {
     console.log(`The server is running on port ${PORT}`);
 });
+
 
 const quote_scheduling_rule = new schedule.RecurrenceRule();
 quote_scheduling_rule.hour = 0;

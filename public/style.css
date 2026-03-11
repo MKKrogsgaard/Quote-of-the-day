@@ -35,13 +35,12 @@ body{
     flex-direction: column;
 	align-items: center;
 	justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 
-h1 {
-    margin: 0;
-}
-h4 {
-    margin: 1;
+h4, cite {
+    margin: 0; /* "margin: 1" is invalid (missing unit) */
 }
 
 
@@ -50,17 +49,17 @@ blockquote {
     font-weight: 100;
 	font-size: 2rem;
 	max-width: 1000px;
-	line-height: 1.1;
+	line-height: 1.25;
 	position: relative;
 	margin: 0;
-	padding: .5rem;
+	padding: 1rem 1.25rem;
 }
 
 /* Quote mark effects */
 blockquote:before,
 blockquote:after {
 	position: absolute;
-	color: #f1efe6;
+	color: var(--color-seconday-darkened);
 	font-size: 8rem;
 	width: 8rem;
 	height: 4rem;
@@ -68,12 +67,12 @@ blockquote:after {
 blockquote:before {
 	content: '“';
 	left: -5rem;
-	top: -2rem;
+	top: -5rem;
 }
 blockquote:after {
 	content: '”';
-	right: -9rem;
-	bottom: 1rem;
+	right: -5rem;
+	bottom: -2rem;
 }
 
 /* Author name */
@@ -118,5 +117,25 @@ cite {
     display: none;
 }
 
+/* Mobile */
+@media (max-width: 600px) {
+    .content {
+        padding: 1rem 0.75rem;
+    }
 
+    blockquote {
+        padding: 0.9rem 1rem;
+    }
 
+    blockquote::before {
+    content: "“";
+    left: -0.2rem;
+    top: -5rem;
+    }  
+
+    blockquote::after {
+        content: "”";
+        right: -4rem;
+        bottom: -1rem;
+    }
+}

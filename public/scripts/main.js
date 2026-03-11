@@ -1,20 +1,20 @@
 
 QUOTES_JSON_PATH = 'public/quotes_folder/quotes.json'
 
-function toggleDebugButtonsVisibility() {
-  var random_quote_button = document.getElementById("random-quote-button");
-  if (random_quote_button.style.display === "none") {
-    random_quote_button.style.display = "block";
-  } else {
-    random_quote_button.style.display = "none";
-  }
+RUN_INTERVAL_CHECK = true;
 
-  var current_quote_button = document.getElementById("current-quote-button");
-  if (current_quote_button.style.display === "none") {
-    current_quote_button.style.display = "block";
-  } else {
-    current_quote_button.style.display = "none";
-  }
+function setDebugButtonsVisibility(visible=true) {
+    var random_quote_button = document.getElementById("random-quote-button");
+    var current_quote_button = document.getElementById("current-quote-button");
+    if (visible) {
+        random_quote_button.style.display = "block";
+        current_quote_button.style.display = "block";
+        RUN_INTERVAL_CHECK = false;
+    } else {
+        random_quote_button.style.display = "none";
+        current_quote_button.style.display = "none";
+        RUN_INTERVAL_CHECK = true;
+    }
 } 
 
 function formatTime(number) {
@@ -102,8 +102,10 @@ function showTimeUntillMidnight() {
 }
 
 function intervalLoop() {
-    showTimeUntillMidnight();
-    displayCurrentQuote();
+    if (RUN_INTERVAL_CHECK) {
+        showTimeUntillMidnight();
+        displayCurrentQuote();
+    }
 }
 
 let time_till_midnight_interval = window.setInterval(intervalLoop, 500);
