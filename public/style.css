@@ -122,6 +122,11 @@ cite {
         min-height: 100dvh; /* Use dynamic viewport height (hopefully fixes safari issues with footer) */
     }
 
+    .footer-single-line {
+        padding-bottom: env(safe-area-inset-bottom);
+        position: sticky;
+    }
+
     .content {
         padding: 1rem 0.75rem;
     }
