@@ -1,8 +1,8 @@
 //Imports
-import express from 'express';
-import path from 'path';
-import fs from 'fs';
-import schedule from 'node-schedule';
+const express = require('express');
+const path = require('path');
+const fs = require('fs');
+const schedule = require('node-schedule');
 
 const app = express();
 
