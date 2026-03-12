@@ -13,7 +13,7 @@ debug_quote = {
 
 // Set a quote upon server startup
 let current_quote = '';
-await refreshQuote();
+refreshQuote();
 console.log(`Server starting. Setting current quote:`);
 console.log(current_quote);
 
@@ -79,15 +79,14 @@ GET Requests stop
 */
 
 // Bind to environment port for web hosting
-const PORT = process.env.PORT || 5000;
-// For local hosting (debugging)
-// const PORT = 5000;
-process.on('unhandledRejection', (err) => console.error('unhandledRejection', err));
-process.on('uncaughtException', (err) => console.error('uncaughtException', err));
-const server = app.listen(PORT, '0.0.0.0', () => {
+// const PORT = process.env.PORT || 5000;
+// const server = app.listen(PORT, '0.0.0.0', () => {
+//     console.log(`The server is running on port ${PORT}`);
+// });
+const PORT = 5000;
+const server = app.listen(PORT, () => {
     console.log(`The server is running on port ${PORT}`);
 });
-
 
 
 const quote_scheduling_rule = new schedule.RecurrenceRule();
@@ -95,6 +94,6 @@ quote_scheduling_rule.hour = 0;
 quote_scheduling_rule.minute = 0;
 quote_scheduling_rule.tz = 'Europe/Berlin'
 
-const quote_job = schedule.scheduleJob(quote_scheduling_rule, async function(){ 
-    await refreshQuote();
+const quote_job = schedule.scheduleJob(quote_scheduling_rule, function(){
+  refreshQuote();
 });
