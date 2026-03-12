@@ -82,8 +82,6 @@ GET Requests stop
 const PORT = process.env.PORT || 5000;
 // For local hosting (debugging)
 // const PORT = 5000;
-process.on('unhandledRejection', (err) => console.error('unhandledRejection', err));
-process.on('uncaughtException', (err) => console.error('uncaughtException', err));
 const server = app.listen(PORT, '0.0.0.0', () => {
     console.log(`The server is running on port ${PORT}`);
 });
