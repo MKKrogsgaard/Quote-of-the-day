@@ -66,7 +66,7 @@ blockquote:after {
 }
 blockquote:before {
 	content: '“';
-	left: -5rem;
+	left: 0rem;
 	top: -5rem;
 }
 blockquote:after {

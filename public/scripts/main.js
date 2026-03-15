@@ -103,7 +103,7 @@ function showTimeUntillMidnight() {
 
 function intervalLoop() {
     if (RUN_INTERVAL_CHECK) {
-        showTimeUntillMidnight();
+        // showTimeUntillMidnight();
         displayCurrentQuote();
     }
 }
