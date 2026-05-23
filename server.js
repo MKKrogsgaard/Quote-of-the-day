@@ -13,14 +13,35 @@ debug_quote = {
 
 // Set a quote upon server startup
 let current_quote = '';
+let seed = 0;
 refreshQuote();
-console.log(`Server starting. Setting current quote:`);
+console.log(`Server starting. Seed: ${seed} Current quote:`);
 console.log(current_quote);
 
 function formatTime(number) {
     /* Adds a leading zero to a number if the number is less than 10 */
     return number < 10 ? '0' + number : number;
 }
+
+function jsf32(a, b, c, d) {
+    /* Implementation of the Jenkins' Small Fast seeded random number generator */
+    return function() {
+    a |= 0; b |= 0; c |= 0; d |= 0;
+    let t = a - (b << 27 | b >>> 5) | 0;
+    a = b ^ (c << 17 | c >>> 15);
+    b = c + d | 0;
+    c = d + t | 0;
+    d = a + t | 0;
+    return (d >>> 0) / 4294967296;
+  }
+}
+
+function getRandomIndex(seed, array_length) {
+    /* Returns a random index for an array of a given length, using a seed for reproducibility */
+    let rand = jsf32(seed, seed, seed, seed);
+    return Math.floor(rand() * array_length);
+}
+
 async function refreshQuote() {
     let now = new Date();
     let hours = formatTime(now.getHours());
@@ -35,9 +56,14 @@ async function refreshQuote() {
     let data = fs.readFileSync('public/quotes_folder/quotes.json', 'utf8');
     let quotes_array = JSON.parse(data);
 
-    // Select and display a random quote
-    let random_index = Math.floor(Math.random() * quotes_array.length);
+    // Use current data as random seed to ensure that the quote changes every day
+    let seed = now.getFullYear() * 10000 + (now.getMonth() + 1) * 100 + now.getDate();
+    let random_index = getRandomIndex(seed, quotes_array.length);
     current_quote = quotes_array[random_index];
+
+    // // Select and display a random quote
+    // let random_index = Math.floor(Math.random() * quotes_array.length);
+    // current_quote = quotes_array[random_index];
 }
 
 // Tell express which static files to serve
